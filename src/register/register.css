@@ -1,0 +1,56 @@
+.inputsec2{
+    margin-top: 20px;
+}
+.whiteSection2{
+    padding-top: 100px;
+    margin-top: 20px;
+}
+.blueSection{
+    height: 700px;   
+}
+.blueLogo{
+    height: 70px;
+    width: 100px;
+    margin: 30px 0 0px 30px;
+}
+.whiteLogo{
+    height: 50px;
+    width: auto;
+}
+.whiteLogoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signupBtn2{
+    color: black;
+    width: 95%;
+    height: 50px;
+    border-radius: 15px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.padlock{
+    width: 15px;
+}
+@media screen and (max-width:770px) {
+    .registerform{
+        margin-left: 30px;
+    }
+    .whiteLogo{
+        margin-left: 20px;
+        width: 100px;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:600px) {
+    .registerform{
+        margin-left: 0;
+    }
+    .signupBtn2{
+        margin-left: 10px;
+    }
+}

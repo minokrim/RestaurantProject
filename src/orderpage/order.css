@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(90, 88, 88, 0.148);
+}
+.orderBody{
+    display: flex;
+}
+.leftSection{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 10px;
+
+}
+.rightSection{
+    padding-left: 50px;
+    padding-top: 20px;
+}

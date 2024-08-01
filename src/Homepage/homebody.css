@@ -1,0 +1,346 @@
+.bodyMain{
+    display: flex;
+    flex-direction: column;
+}
+.description{
+margin-left: 50px;
+}
+.sect-1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-content: center;
+}
+.des1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: rgba(54, 170, 217, 1);;
+    margin-left: 20px;
+}
+#l1{
+    height: 30px;
+    width: 3px;
+    background-color: rgba(54, 170, 217, 1);
+    border-radius: 2px;
+}
+#l1>p{
+    color: rgba(54, 170, 217, 1);
+    font-size: 17px;
+    font-weight: 300;
+}
+#l2{
+    width: 80px;
+    height: 2.5px;
+    background-color: rgba(54, 170, 217, 1);
+    border-radius: 2px;
+    margin-left: 30px;
+}
+.des2{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+}
+#l3{
+    height: 100px;
+    width: 3px;
+    border-radius: 2px;
+    background-color: rgba(54, 170, 217, 1);
+}
+.subdes{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+}
+.sub1-des1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
+.sub1-des2{
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+.des3{
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    align-items: center;
+}
+#l4{
+    height: 20px;
+    width: 2px;
+    background-color: rgba(54, 170, 217, 1);
+}
+.des3 p{
+    position: relative;
+    color: grey;
+    font-size: 13px;
+    display: flex;
+    align-items: flex-start;
+    bottom: 10px;
+}
+.foodImage img{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.sect-2{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.vendorSelection{
+    border: 0.5px solid grey;
+    width: max-content;
+    display: flex;
+    gap: 20px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(54, 170, 217, 1);
+}
+.vendorImages{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    text-align: left;
+    align-items: flex-start;
+}
+.img-container img{
+    width: 90%;
+}
+.img-container>p{
+    font-size: 17px;
+    font-weight: 650;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 12px;
+}
+.fd-details{
+    display: flex;
+    gap: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 12px;
+    align-items: center;
+}
+.fd-details img{
+    width: auto;
+    height: 25px;
+}
+.det1{
+    font-size: 16ox;
+    font-weight: 700;
+}
+.det2{
+    color: grey;
+    font-weight: 400;
+}
+.divider-img{
+    margin-top: 30px;
+    display: flex;
+}
+.divider-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: column;
+}
+.handshake{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.handshake img{
+    width: 200px;
+}
+.sec3 p{
+    font-weight: 600;
+    font-size: 20px;
+    justify-content: center;
+}
+.optContainer{
+    display: flex;
+}
+.becomeVend{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.becomeVend img{
+    width: auto;
+    height: 300px;
+    display: flex;
+}
+#det1{
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-right: 0;
+    justify-content: center;
+}
+#det2{
+    margin-top: 0;
+    padding-top: 0;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+    justify-content: center;
+}
+.becomeVend h4{
+    display: flex;
+    background-color: rgba(54, 170, 217, 1);
+    width: 22%;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+}
+
+@media screen and (max-width:770px) {
+    .vendorSelection{
+        margin-left: 3px;
+    }
+    .vs1:hover{
+        color: white;
+        background-color: rgba(54, 170, 217, 1);
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .vs2:hover{
+        color: white;
+        background-color: rgba(54, 170, 217, 1);
+        border-radius: 10px;
+        padding: 5px;
+    }
+    .becomeVend{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .becomeVend h4{
+        margin-left: 0;
+        width: 100px;
+    }
+    .img-container{
+        width: 100%;
+
+    }
+    .sec3 img{
+        width: 100%;  
+        margin-top: 20px;
+      }
+      .fd-details img{
+        width: auto;
+        height: 25px;
+    }
+    .fd-details{
+        display: flex;
+        align-items: center;
+    }
+}
+@media screen and (max-width:600px) {
+    .sect-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sect-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    .foodImage img{
+        width: 300px;
+    }
+    .vendorSelection{
+        margin-left: 3px;
+    }
+    .vs1:hover{
+        color: white;
+        background-color: rgba(54, 170, 217, 1);
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .vs2:hover{
+        color: white;
+        background-color: rgba(54, 170, 217, 1);
+        border-radius: 10px;
+        padding: 2px;
+    }
+    .vendorImages{
+        margin-top: 20px;
+        width: 100%;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        margin: 20px 5px 0 10px;
+    }
+    .img-container{
+        width: 100%;
+
+    }
+    .img-container img{
+        width: 200px;
+    }
+    .fd-details img{
+        width: auto;
+        height: 20px;
+    }
+    .optContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .becomeVend{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .becomeVend h4{
+        margin-left: 0;
+        width: 100px;
+    }
+    .det{
+        margin-left: 30px;
+    }
+    .divider-img img{
+        max-width: 100%;
+        width: auto;
+        height: 100px;
+    }
+    .sec3 img{
+      width: 100%;  
+      margin-top: 20px;
+    }
+}

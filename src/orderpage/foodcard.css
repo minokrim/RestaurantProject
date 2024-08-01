@@ -1,0 +1,42 @@
+.foodcard{
+    border: 0.6px solid #00000033;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.foodcard img{
+    width: auto;
+    height: 80px;
+    margin: 15px 0 0 10px;
+}
+.foodcard div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 150px;
+    height: 100px;
+    padding-left: 10px;
+}
+.foodcard div h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+.foodcard div h4{
+    font-weight: 400;
+    font-size: 16px;
+}
+.add{
+    background-color: #158DBE1A;
+    color: #158DBE;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    align-self: self-end;
+    margin-right: 10px;
+}
