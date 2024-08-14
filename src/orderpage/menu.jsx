@@ -49,6 +49,7 @@ export default function Menu(){
         setPasta(false)
         setSwallow(false)
         setOther(false)
+        
     }
     function showfood(food){
         return <Foodcard
@@ -59,6 +60,7 @@ export default function Menu(){
         addtorder={addtorder}
         />
     }
+
     
     useEffect(()=>{
         var storedItems=JSON.parse(localStorage.getItem("items"))||[]
@@ -86,11 +88,11 @@ export default function Menu(){
 
     return <div className="menuboard">
         <section className="menuOptions">
-            <p onClick={showbreakfast}>BREAKFAST</p>
-            <p onClick={showrice}>RICE</p>
-            <p onClick={showpasta}>PASTA</p>
-            <p onClick={showswallow}>SWALLOWS</p>
-            <p onClick={showother}>OTHERS</p>
+            <p onClick={showbreakfast} id="breakfast">BREAKFAST</p>
+            <p onClick={showrice} id="rice">RICE</p>
+            <p onClick={showpasta}id="pasta">PASTA</p>
+            <p onClick={showswallow} id="swallow">SWALLOWS</p>
+            <p onClick={showother} id="other">OTHERS</p>
         </section>
         <hr />
 

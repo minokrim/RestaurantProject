@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 function Homesignin(){
     return <div>
         <div className="signinMain">
-            <section className="blueSection">
+            <section className="blueSectionsignin">
             <img src={logo} alt="" className="logoimg"/>
                 <img src={foodimg} alt="" className="foodimg"/>
                 <p className="blueTxt1"><span>Order your</span> favourite Lunch</p>

@@ -24,7 +24,7 @@ function Register(){
             password:password,
             verifypass:verifypass
         }
-        if (password!=verifypass){
+        if (password!==verifypass){
             alert("wrong pass")
         }
         else{
@@ -42,14 +42,14 @@ function Register(){
 
     return <div>
         <div className="signinMain">
-            <section className="blueSection">
+            <section className="blueSectionregister">
                 <img src={logo} alt="" className="blueLogo"/>
                 <img src={foodimg} alt="" className="foodimg"/>
                 <p className="blueTxt1"><span>Order your</span> favourite Lunch</p>
                 <p className="blueTxt2">&</p>
                 <p className="blueTxt3">Enjoy other <span>Services</span></p>
             </section>
-            <section className="whiteSection whiteSection2">
+            <section className="whiteSection2">
                 <div>
                     <div className="whiteLogoContainer">
                     <img src={logo} alt="" className="whiteLogo"/>

@@ -33,7 +33,7 @@
     display: flex;
     height: 100vh;
 }
-.blueSection{
+.blueSectionsignin{
     display: flex;
     flex-direction: column;
     width: 55%;
@@ -99,7 +99,7 @@
 .whiteSection{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 55%;
     justify-content: center;
     align-items: center;
     background-color: rgba(255, 255, 255, 1);
@@ -140,6 +140,10 @@ input{
 input::placeholder {
     color: rgb(128, 128, 128,0.5);
     padding-left: 10px;
+}
+input:focus{
+    border: none;
+    outline: 0.5px solid #36aad9;
 }
 .forgetPass{
     display: flex;

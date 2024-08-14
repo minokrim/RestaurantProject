@@ -20,13 +20,20 @@ export default function Orderform(){
         {items.length>0?
         <section>
         {items.map((item)=>(
-        <div key={item.name}>
-        <section className="">
-        <img src={item.image} alt="" />
-        <div>
-            <h3>{item.name}</h3>
-            <h4>${item.price}.00</h4>
-        </div>
+        <div key={item.name} className="itemmain">
+            <section className="itemTop">
+            <h2>{item.quantity}1X</h2>
+            <img src={item.image} alt="" />
+            <h4>{item.name}</h4>
+            <div>
+            <h3>${item.price}.00</h3>
+            <p>Edit</p>
+            </div>
+        </section>
+
+        <section className="itemBottom">
+            <p>-</p>
+            <p>+</p>
         </section>
         </div>
         ))}
@@ -42,6 +49,6 @@ export default function Orderform(){
         <button>SUBMIT ORDER</button>
         </section>
         </div>
-        <Item/>
+        {/* <Item/> */}
     </div>
 }

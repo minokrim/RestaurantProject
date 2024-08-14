@@ -8,6 +8,7 @@ import Homesignin from './signin/signin';
 import Register from './register/register';
 import Homepage from './Homepage/homepage';
 import Order from './orderpage/order';
+import ChangePass from './SET/changepass';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ root.render(
         <Route path="/home" element={<Homepage/>}/>
         <Route path="/signin" element={<Homesignin/>}/>
         <Route path="/register" element={<Register/>}/>
-        <Route path="/" element={<Order/>}/>
+        <Route path="/order" element={<Order/>}/>
+        <Route path="/" element={<ChangePass/>}/>
       </Routes>
     </HashRouter>
     <App />

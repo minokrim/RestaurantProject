@@ -39,7 +39,7 @@ function Carousel(){
             <img src={carosel3}  alt="" id="carimg3" className="car"/>
             </div>
         </div>
-        <section>
+        <section className="bukkaBannerSection">
             <img src={bukkabanner} alt="" className="bukkaBanner"/>
         </section>
         <section>

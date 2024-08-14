@@ -1,12 +1,36 @@
 .inputsec2{
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+    padding-top: 0;
+}
+.inputsec2 p{
+    display: flex;
+    margin-left: 120px;
 }
 .whiteSection2{
-    padding-top: 100px;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    height: 450px;
 }
-.blueSection{
-    height: 700px;   
+.whiteSection2 div{
+    background-color: white;
+    width: 100%;
+}
+.blueSectionregister{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    background-color: rgba(54, 170, 217, 1);
+    height: 700px;  
 }
 .blueLogo{
     height: 70px;
@@ -23,18 +47,25 @@
     justify-content: center;
 }
 .signupBtn2{
+    display: flex;
     color: black;
-    width: 95%;
-    height: 50px;
+    width: 50%;
+    height: 45px;
     border-radius: 15px;
-    margin-bottom: 0;
-    padding-bottom: 0;
-    font-size: 20px;
+    font-size: 26px;
+    font-family: "Roboto Extra Bold";
+    justify-content: center;
+    align-content: center;
+    margin-left: 165px;
+    padding-top: 8px;
     margin-top: 20px;
-    margin-left: 25px;
 }
 .padlock{
     width: 15px;
+}
+.inputFields{
+    display: flex;
+    justify-content: center;
 }
 @media screen and (max-width:770px) {
     .registerform{
@@ -45,6 +76,12 @@
         width: 100px;
         margin-top: 100px;
     }
+    .signupBtn2{
+        margin-left: 100px;
+    }
+    .whiteSection2{
+        height: 350px;
+    }
 }
 @media screen and (max-width:600px) {
     .registerform{
@@ -52,5 +89,17 @@
     }
     .signupBtn2{
         margin-left: 10px;
+    }
+    .blueSectionregister{
+        width: 100%;
+    }
+    .whiteSection2{
+        width: 100%;
+    }
+    .inputsec2 p{
+        margin-left: 20px;
+    }
+    .signupBtn2{
+        margin-left: 80px;
     }
 }

@@ -2,8 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    justify-content: center;
+    background-color: #FFFFFF;
     padding-bottom: 30px;
+    height: 50px;
+    padding-top: 10px;
 }
 .firstSec{
     display: flex;

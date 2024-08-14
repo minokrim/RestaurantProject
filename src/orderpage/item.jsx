@@ -11,6 +11,7 @@ export default function Item(props){
             <p>Edit</p>
             </div>
         </section>
+        
         <section className="itemBottom">
             <p>-</p>
             <p>+</p>

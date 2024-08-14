@@ -16,6 +16,9 @@
 .bukkaBanner{
     width: 100%;
 }
+.bukkaBannerSection{
+    border-radius: 20px;
+}
 .searchbukka{
     width: 100%;
 }

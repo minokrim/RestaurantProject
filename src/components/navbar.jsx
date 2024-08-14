@@ -1,6 +1,6 @@
 import React from "react";
 import "../components/navbar.css"
-import logo from "../img/logoo.png"
+import logo from "../img/tm30biglogo.png"
 import bell from "../img/bell.png"
 import menu from "../img/menu.png"
 import bars from "../components/menu.png"

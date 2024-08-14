@@ -1,8 +1,14 @@
 body{
-    background-color: rgba(90, 88, 88, 0.148);
+    /* background-color: rgba(90, 88, 88, 0.148); */
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #36aad9 100%);
 }
 .orderBody{
     display: flex;
+    flex-direction: column;
+}
+.orderSection{
+    display: flex;
+    justify-content: center;
 }
 .leftSection{
     display: flex;

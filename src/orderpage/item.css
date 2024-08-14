@@ -1,4 +1,4 @@
-.itemmain{
+/* .itemmain{
     border: 1px solid #00000033;
     height: 105px;
     border-radius: 10px;
@@ -26,6 +26,10 @@
     font-weight: 500;
     font-size: 18px;
 }
+.itemTop img{
+    width: auto;
+    height: 50px;
+}
 .itemTop div p{
     font-weight: 500;
     font-size: 20px;
@@ -48,4 +52,4 @@
     height: 25px;
     align-items: center;
     justify-content: center;
-}
+} */

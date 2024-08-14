@@ -23,6 +23,70 @@
     font-size: 18px;
     margin-left: 20px;
 }
+.itemmain{
+    border: 1px solid #00000033;
+    height: 105px;
+    border-radius: 10px;
+    padding: 0px 15px 0 15px;
+    /* border: 1px solid red; */
+    margin: 10px 20px 10px 20px;
+}
+.itemTop{
+    position: relative;
+    display: flex;
+    height: max-content;
+    height: 100px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: -20px;
+    gap: 20px;
+}
+.itemTop h2{
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.itemTop h4{
+    font-weight: 400;
+    font-size: 16px;
+    width: 100px;
+}
+.itemTop div{
+
+}
+.itemTop div h3{
+    font-weight: 500;
+    font-size: 18px;
+}
+.itemTop img{
+    width: auto;
+    height: 70px;
+    margin-top: 30px;
+}
+.itemTop div p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #158DBE;
+}
+.itemBottom{
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.itemBottom p{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    background-color: #36AAD9;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+}
 .formBody{
     display: flex;
     flex-direction: column;
@@ -63,3 +127,6 @@ button{
     font-weight: 500;
     font-size: 18px;
 }
+/* .orderitem{
+    width: 300px;
+} */
